@@ -1,7 +1,7 @@
 {
-  "name": "aave-protocol-subgraphs",
+  "name": "zeebu-protocol-subgraphs",
   "version": "1.0.0",
-  "description": "This package contains subgraphs of the Aave protocol v2 and v3",
+  "description": "This package contains subgraphs of the Zeebu Money Market protocol",
   "scripts": {
     "generate:schema": "cp ./schemas/${VERSION}.schema.graphql  schema.graphql",
     "prepare:subgraph": "mustache ./config/${NETWORK}-${VERSION}.json ./templates/${BLOCKCHAIN}.subgraph.template.yaml > subgraph.yaml && rm -rf generated && npm run generate:schema && npm run subgraph:codegen && npm run subgraph:build",
@@ -9,11 +9,13 @@
     "subgraph:build": "graph build",
     "subgraph:auth": "graph auth --studio $ACCESS_TOKEN",
     "subgraph:deploy": "graph deploy --studio $SLUG",
-    "deploy:mainnet": "VERSION=v2 BLOCKCHAIN=ethereum NETWORK=mainnet env-cmd npm run prepare:subgraph && SLUG=aave-protocol-v2 env-cmd npm run subgraph:deploy"
+    "deploy:mainnet": "VERSION=v2 BLOCKCHAIN=ethereum NETWORK=mainnet env-cmd npm run prepare:subgraph && SLUG=zeebu-money-market env-cmd npm run subgraph:deploy",
+    "deploy:sepolia": "VERSION=v2 BLOCKCHAIN=ethereum NETWORK=sepolia env-cmd npm run prepare:subgraph && SLUG=zeebu-money-market-sepolia env-cmd npm run subgraph:deploy"
+
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aave/protocol-subgraphs"
+    "url": "https://github.com/protofire/aave-protocol-subgraphs"
   },
   "author": "AAVE <tech@aave.com>",
   "contributors": [
@@ -32,6 +34,10 @@
     {
       "name": "Andrew Schmidt",
       "email": "andrew@aave.com"
+    },
+    {
+      "name": "Luis Lopez",
+      "email": "luis.lopez@protofire.io"
     }
   ],
   "license": "MIT",
