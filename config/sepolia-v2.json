@@ -17,6 +17,6 @@
 
   "ChainlinkENSResolver": "0x0000000000000000000000000000000000000000",
   "ChainlinkENSResolverBlock": 6898603,
-  "OracleAnchorAddress": "0xf166468976738131756Ad6d134632A0dFaA6A5Cc",
-  "OracleAnchorStartBlock": 6898603
+  "OracleAnchorAddress": "0xb8dC4C81EC7F06eA77ED185A70C9305b4FBBE1c8",
+  "OracleAnchorStartBlock": 6923548
 }
