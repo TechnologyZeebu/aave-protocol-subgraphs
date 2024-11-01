@@ -9,11 +9,11 @@
   "LendingPoolAddressesProviderRegistryAddress": "0xaEa8fd3841DaF4c7e5e7F56bf50098E2b9DD3647",
   "LendingPoolAddressesProviderRegistryStartBlock": 6976389,
 
-  "UniswapLiquiditySwapAdapterAddress": "0x4075789A1CBE93Fd45DF2E375A281e3502cF5b74",
-  "UniswapLiquiditySwapAdapterStartBlock": 6976466,
+  "UniswapLiquiditySwapAdapterAddress": "0x046c935e8986113Ec99b9c4496E4F1a2263076dA",
+  "UniswapLiquiditySwapAdapterStartBlock": 6984543,
   
-  "UniswapRepayAdapterAddress": "0x64b0d8eeb544f0B8Bc9DC85e07774668d71fF859",
-  "UniswapRepayAdapterStartBlock": 6976467,
+  "UniswapRepayAdapterAddress": "0x3BF00c8224a50875afD099EbbF3151b2F1e36b4d",
+  "UniswapRepayAdapterStartBlock": 6984537,
 
   "ChainlinkENSResolver": "0x0000000000000000000000000000000000000000",
   "ChainlinkENSResolverBlock": 6898603,
