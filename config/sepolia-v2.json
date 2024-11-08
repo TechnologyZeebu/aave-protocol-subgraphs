@@ -1,6 +1,6 @@
 {
   "network": "sepolia",
-  "AaveOracleAddress": "0x049a2C1c2Ce86A74E58a20e373A29F25E6A982CE",
+  "AaveOracleAddress": "0xe7fFb746833AE8C0D1fd6A12078E08f3d4183d2e",
   "AaveOracleStartBlock": 7030904,
   
   "ChainlinkSourcesRegistryAddress": "0xc58A4CdF7c06f54ADDB9b314c6A439fDB61D6652",
