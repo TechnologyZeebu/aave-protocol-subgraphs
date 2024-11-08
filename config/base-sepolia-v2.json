@@ -1,0 +1,22 @@
+{
+  "network": "base-sepolia",
+  "AaveOracleAddress": "0xb21b4dA595D3D1a0c70981Cb343256951Df51E21",
+  "AaveOracleStartBlock": 17654354,
+  
+  "ChainlinkSourcesRegistryAddress": "0x941083b3F7276598e606617Ab456bea1DaD31309",
+  "ChainlinkSourcesRegistryStartBlock": 17654457,
+
+  "LendingPoolAddressesProviderRegistryAddress": "0xa8Ae638B3f266057F05c19212FA775Efa9124eDd",
+  "LendingPoolAddressesProviderRegistryStartBlock": 17654293,
+
+  "UniswapLiquiditySwapAdapterAddress": "0x9193500758EF4Aa002cD85415cd1F9D79a339b76",
+  "UniswapLiquiditySwapAdapterStartBlock": 17654450,
+  
+  "UniswapRepayAdapterAddress": "0x3937038e31bbB6E0F15309Cc4A894712Bf569195",
+  "UniswapRepayAdapterStartBlock": 17654454,
+
+  "ChainlinkENSResolver": "0x0000000000000000000000000000000000000000",
+  "ChainlinkENSResolverBlock": 17654354,
+  "OracleAnchorAddress": "0x326e1E07a588d8072d3cb1999ca7774777333Cb6",
+  "OracleAnchorStartBlock": 17654460
+}
