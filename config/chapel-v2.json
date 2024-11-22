@@ -1,0 +1,22 @@
+{
+  "network": "chapel",
+  "AaveOracleAddress": "0xdAA65C001be09B238A612DE799ddC3b9E362c8DB",
+  "AaveOracleStartBlock": 45822217,
+  
+  "ChainlinkSourcesRegistryAddress": "0x93112f925ea5B7332F744706516C8025F9D345B7",
+  "ChainlinkSourcesRegistryStartBlock": 45822280,
+
+  "LendingPoolAddressesProviderRegistryAddress": "0x3657379907bA602470188342597350CDb813a4c3",
+  "LendingPoolAddressesProviderRegistryStartBlock": 45822182,
+
+  "UniswapLiquiditySwapAdapterAddress": "0x880Ccf926b788210801af915aBb6c9Ba463576d0",
+  "UniswapLiquiditySwapAdapterStartBlock": 45822276,
+  
+  "UniswapRepayAdapterAddress": "0x67EB5047E5C38e6Bee173E18d7F56104cA521803",
+  "UniswapRepayAdapterStartBlock": 45822278,
+
+  "ChainlinkENSResolver": "0x0000000000000000000000000000000000000000",
+  "ChainlinkENSResolverBlock": 45822278,
+  "OracleAnchorAddress": "0x89bac380E5A45468302bfc3f1F5EF8DaDd0Dd815",
+  "OracleAnchorStartBlock": 45822281
+}
