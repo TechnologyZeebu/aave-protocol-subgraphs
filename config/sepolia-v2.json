@@ -1,22 +1,22 @@
 {
   "network": "sepolia",
-  "AaveOracleAddress": "0x70818934cedd7Bf26a243cB0AaAf53CF13E38108",
-  "AaveOracleStartBlock": 7596057,
+  "AaveOracleAddress": "0x66dA461A1b27950eF0215CDF5414dDCFc93E8730",
+  "AaveOracleStartBlock": 7687939,
   
-  "ChainlinkSourcesRegistryAddress": "0x07c6C93D590b23Ce3787Daf147bbc0E292fA7c93",
-  "ChainlinkSourcesRegistryStartBlock": 7596090,
+  "ChainlinkSourcesRegistryAddress": "0x68a215237c648ea994A08dde7ab487ac2D9D5035",
+  "ChainlinkSourcesRegistryStartBlock": 7687973,
 
-  "LendingPoolAddressesProviderRegistryAddress": "0xe1A59bBF81328CA034a0EA5d018723aF65908352",
-  "LendingPoolAddressesProviderRegistryStartBlock": 7596040,
+  "LendingPoolAddressesProviderRegistryAddress": "0x730f86787FbDE77Cc02b15E00313463766e015eD",
+  "LendingPoolAddressesProviderRegistryStartBlock": 7687921,
 
-  "UniswapLiquiditySwapAdapterAddress": "0x828f681a6288c47d7899427dff2d13E9776dBD98",
-  "UniswapLiquiditySwapAdapterStartBlock": 7596087,
+  "UniswapLiquiditySwapAdapterAddress": "0x014d1CD22145B4BC883E99dbA355716cd1Adcb77",
+  "UniswapLiquiditySwapAdapterStartBlock": 7687971,
   
-  "UniswapRepayAdapterAddress": "0x7b312090b1064e7AbD647f4d654903e0359F1A2e",
-  "UniswapRepayAdapterStartBlock": 7596088,
+  "UniswapRepayAdapterAddress": "0x055C8DB0424cfb967B17792B5b293e229EE8101D",
+  "UniswapRepayAdapterStartBlock": 7687972,
 
   "ChainlinkENSResolver": "0x0000000000000000000000000000000000000000",
-  "ChainlinkENSResolverBlock": 7596088,
-  "OracleAnchorAddress": "0xB6Af16fBdE6D1B7c6217Bc54Eb78b0fa7F61842E",
-  "OracleAnchorStartBlock": 7596091
+  "ChainlinkENSResolverBlock": 7687974,
+  "OracleAnchorAddress": "0x94C79807F7DeD4004f18E50C65648a11cefa2dEA",
+  "OracleAnchorStartBlock": 7687974
 }
