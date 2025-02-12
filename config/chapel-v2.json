@@ -1,22 +1,22 @@
 {
   "network": "chapel",
-  "AaveOracleAddress": "0xBD12b57e36Ab4e977820cfE91eE0767963Db6788",
-  "AaveOracleStartBlock": 47797431,
+  "AaveOracleAddress": "0xD01b09FF17F93671ab39F430298C3c35DF57C168",
+  "AaveOracleStartBlock": 48194219,
   
-  "ChainlinkSourcesRegistryAddress": "0xE0c88536288dC37F660268A214a6f1149C6C3B7a",
-  "ChainlinkSourcesRegistryStartBlock": 47797495,
+  "ChainlinkSourcesRegistryAddress": "0xa8917459e053C2556908b2c07486ACdE43D42188",
+  "ChainlinkSourcesRegistryStartBlock": 48194282,
 
-  "LendingPoolAddressesProviderRegistryAddress": "0x1fe1D61B3b704754CC305a3e4f8b3d887d0E6602",
-  "LendingPoolAddressesProviderRegistryStartBlock": 47797387,
+  "LendingPoolAddressesProviderRegistryAddress": "0x3F99F52Df2C80E13996Cd67b4A14Af31DB369345",
+  "LendingPoolAddressesProviderRegistryStartBlock": 48194184,
 
-  "UniswapLiquiditySwapAdapterAddress": "0x8C466dB1d56122AcCf3F61dd9ff13E6C8a36ea32",
-  "UniswapLiquiditySwapAdapterStartBlock": 47797492,
+  "UniswapLiquiditySwapAdapterAddress": "0xEC39591a185fa000F02208bc05B13b9C88aF7256",
+  "UniswapLiquiditySwapAdapterStartBlock": 48194278,
   
-  "UniswapRepayAdapterAddress": "0x312802e848A434CFE4D9F6f4c85A5e1e803209eb",
-  "UniswapRepayAdapterStartBlock": 47797494,
+  "UniswapRepayAdapterAddress": "0x90c3e29E7AcCe53144E371816C8C854A81F2F4e5",
+  "UniswapRepayAdapterStartBlock": 48194280,
 
   "ChainlinkENSResolver": "0x0000000000000000000000000000000000000000",
   "ChainlinkENSResolverBlock": 47797494,
-  "OracleAnchorAddress": "0xD3acac0b12049fA186d08d1CE9cA0C1e40F96e25",
-  "OracleAnchorStartBlock": 47797497
+  "OracleAnchorAddress": "0x86B069EbdB5E46bd678EBAB49314439BB606D69E",
+  "OracleAnchorStartBlock": 48194284
 }
