@@ -14,7 +14,8 @@
     "deploy:sepolia": "VERSION=v2 BLOCKCHAIN=ethereum NETWORK=sepolia env-cmd npm run prepare:subgraph && SLUG=zeebu-money-market-sepolia env-cmd npm run subgraph:deploy",
     "deploy:base-sepolia": "VERSION=v2 BLOCKCHAIN=base NETWORK=base-sepolia env-cmd npm run prepare:subgraph && SLUG=zeebu-money-market-base-sepolia env-cmd npm run subgraph:deploy",
     "deploy:chapel": "VERSION=v2 BLOCKCHAIN=base NETWORK=chapel env-cmd npm run prepare:subgraph && SLUG=zeebu-money-market-bsc-chapel env-cmd npm run subgraph:deploy",
-    "deploy:sepolia:test": "VERSION=v2 BLOCKCHAIN=ethereum NETWORK=sepolia env-cmd npm run prepare:subgraph && SLUG=nexus-money-market-sepolia-test env-cmd npm run subgraph:deploy"
+    "deploy:sepolia:test": "VERSION=v2 BLOCKCHAIN=ethereum NETWORK=sepolia env-cmd npm run prepare:subgraph && SLUG=nexus-money-market-sepolia-test env-cmd npm run subgraph:deploy",
+    "deploy:base-sepolia:test": "VERSION=v2 BLOCKCHAIN=base NETWORK=base-sepolia env-cmd npm run prepare:subgraph && SLUG=nexus-money-market-base-sepolia-test env-cmd npm run subgraph:deploy"
   },
   "repository": {
     "type": "git",
