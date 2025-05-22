@@ -20,6 +20,11 @@ cp .env.test .env
 # install project dependencies
 yarn install
 
-# deploy subgraph
+# deploy v2 subgraph
+yarn subgraph:auth
 yarn subgraph:deploy:sepolia
+
+# deploy v3 subgraph
+yarn subgraph:auth:v3
+yarn deploy:sepolia:v3
 ```

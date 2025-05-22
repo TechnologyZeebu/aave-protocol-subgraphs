@@ -101,38 +101,38 @@ dataSources:
   # --------------------------------------
   #            REWARDS
   # --------------------------------------
-  - kind: ethereum/contract
-    name: RewardsController
-    network: {{network}}
-    source:
-      address: '{{RewardsControllerAddress}}'
-      abi: RewardsController
-      startBlock: {{RewardsControllerStartBlock}}
-    mapping:
-      kind: ethereum/events
-      apiVersion: 0.0.6
-      language: wasm/assemblyscript
-      entities:
-        - RewardsController
-      abis:
-        - name: RewardsController
-          file: ./abis/v3/RewardsController.json
-        - name: IERC20Detailed
-          file: ./abis/helpers/IERC20Detailed.json
-        - name: AToken
-          file: ./abis/v3/AToken.json
-      eventHandlers:
-        - event: AssetConfigUpdated(indexed address,indexed address,uint256,uint256,uint256,uint256,uint256)
-          handler: handleAssetConfigUpdated
-        - event: Accrued(indexed address,indexed address,indexed address,uint256,uint256,uint256)
-          handler: handleAccrued
-        - event: RewardsClaimed(indexed address,indexed address,indexed address,address,uint256)
-          handler: handleRewardsClaimed
-        - event: RewardOracleUpdated(indexed address,indexed address)
-          handler: handleRewardOracleUpdated
-        - event: EmissionManagerUpdated(indexed address,indexed address)
-          handler: handleEmissionManagerUpdated
-      file: src/mapping/incentives-controller/v3.ts
+  # - kind: ethereum/contract
+  #   name: RewardsController
+  #   network: {{network}}
+  #   source:
+  #     address: '{{RewardsControllerAddress}}'
+  #     abi: RewardsController
+  #     startBlock: {{RewardsControllerStartBlock}}
+  #   mapping:
+  #     kind: ethereum/events
+  #     apiVersion: 0.0.6
+  #     language: wasm/assemblyscript
+  #     entities:
+  #       - RewardsController
+  #     abis:
+  #       - name: RewardsController
+  #         file: ./abis/v3/RewardsController.json
+  #       - name: IERC20Detailed
+  #         file: ./abis/helpers/IERC20Detailed.json
+  #       - name: AToken
+  #         file: ./abis/v3/AToken.json
+  #     eventHandlers:
+  #       - event: AssetConfigUpdated(indexed address,indexed address,uint256,uint256,uint256,uint256,uint256)
+  #         handler: handleAssetConfigUpdated
+  #       - event: Accrued(indexed address,indexed address,indexed address,uint256,uint256,uint256)
+  #         handler: handleAccrued
+  #       - event: RewardsClaimed(indexed address,indexed address,indexed address,address,uint256)
+  #         handler: handleRewardsClaimed
+  #       - event: RewardOracleUpdated(indexed address,indexed address)
+  #         handler: handleRewardOracleUpdated
+  #       - event: EmissionManagerUpdated(indexed address,indexed address)
+  #         handler: handleEmissionManagerUpdated
+  #     file: src/mapping/incentives-controller/v3.ts
   # --------------------------------------
   #
   # --------------------------------------

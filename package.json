@@ -9,6 +9,7 @@
     "subgraph:build": "graph build",
     "subgraph:auth": "graph auth --studio $ACCESS_TOKEN",
     "subgraph:auth:test": "graph auth --studio $ACCESS_TOKEN_TEST",
+    "subgraph:auth:v3": "graph auth --studio $ACCESS_TOKEN_V3",
     "subgraph:deploy": "graph deploy --studio $SLUG",
     "deploy:mainnet": "VERSION=v2 BLOCKCHAIN=ethereum NETWORK=mainnet env-cmd npm run prepare:subgraph && SLUG=zeebu-money-market env-cmd npm run subgraph:deploy",
     "deploy:sepolia": "VERSION=v2 BLOCKCHAIN=ethereum NETWORK=sepolia env-cmd npm run prepare:subgraph && SLUG=zeebu-money-market-sepolia env-cmd npm run subgraph:deploy",
@@ -16,7 +17,10 @@
     "deploy:chapel": "VERSION=v2 BLOCKCHAIN=base NETWORK=chapel env-cmd npm run prepare:subgraph && SLUG=zeebu-money-market-bsc-chapel env-cmd npm run subgraph:deploy",
     "deploy:sepolia:test": "VERSION=v2 BLOCKCHAIN=ethereum NETWORK=sepolia env-cmd npm run prepare:subgraph && SLUG=nexus-money-market-sepolia-test env-cmd npm run subgraph:deploy",
     "deploy:base-sepolia:test": "VERSION=v2 BLOCKCHAIN=base NETWORK=base-sepolia env-cmd npm run prepare:subgraph && SLUG=nexus-money-market-base-sepolia-test env-cmd npm run subgraph:deploy",
-    "deploy:chapel:test": "VERSION=v2 BLOCKCHAIN=base NETWORK=chapel env-cmd npm run prepare:subgraph && SLUG=nexus-money-market-chapel-test env-cmd npm run subgraph:deploy"
+    "deploy:chapel:test": "VERSION=v2 BLOCKCHAIN=base NETWORK=chapel env-cmd npm run prepare:subgraph && SLUG=nexus-money-market-chapel-test env-cmd npm run subgraph:deploy",
+    "deploy:sepolia:v3": "VERSION=v3 BLOCKCHAIN=v3 NETWORK=sepolia env-cmd npm run prepare:subgraph && SLUG=nexus-money-market-sepolia-v-3 env-cmd npm run subgraph:deploy",
+    "deploy:base-sepolia:v3": "VERSION=v3 BLOCKCHAIN=v3 NETWORK=base-sepolia env-cmd npm run prepare:subgraph && SLUG=nexus-money-market-base-sepolia-v-3 env-cmd npm run subgraph:deploy",
+    "deploy:chapel:v3": "VERSION=v3 BLOCKCHAIN=v3 NETWORK=chapel env-cmd npm run prepare:subgraph && SLUG=nexus-money-market-chapel-v-3 env-cmd npm run subgraph:deploy"
   },
   "repository": {
     "type": "git",

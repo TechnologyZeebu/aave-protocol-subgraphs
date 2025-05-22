@@ -1,0 +1,9 @@
+{
+  "network": "chapel",
+  "AaveOracleAddress": "0xD2b329FC99Cb9546fbb32F3FFc87Fa4Cdd5cDCB3",
+  "AaveOracleStartBlock": 52239767,
+  "PoolAddressesProviderRegistryAddress": "0x61262F82A386999C75bdA0af0b672237E36810C7",
+  "PoolAddressesProviderRegistryStartBlock": 52239682,
+  "RewardsControllerAddress": "",
+  "RewardsControllerStartBlock": 52239682
+}

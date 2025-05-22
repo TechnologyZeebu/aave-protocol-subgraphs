@@ -1,0 +1,9 @@
+{
+  "network": "sepolia",
+  "AaveOracleAddress": "0xB7c437D99bD1EEd8E8D0eC4fE865b70EfBFAc1f3",
+  "AaveOracleStartBlock": 8320405,
+  "PoolAddressesProviderRegistryAddress": "0xdBDa92ca3C9B618dE766c3E68Ff8e12a54347bcD",
+  "PoolAddressesProviderRegistryStartBlock": 8320373,
+  "RewardsControllerAddress": "",
+  "RewardsControllerStartBlock": 8320373
+}
