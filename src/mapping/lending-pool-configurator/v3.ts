@@ -181,7 +181,7 @@ export function handleReserveStableRateBorrowing(event: ReserveStableRateBorrowi
   saveReserve(reserve, event);
 }
 
-export function handleReserveActivated(event: ReserveActive): void {
+export function handleReserveActive(event: ReserveActive): void {
   let reserve = getOrInitReserve(event.params.asset, event);
   reserve.isActive = event.params.active;
   saveReserve(reserve, event);
